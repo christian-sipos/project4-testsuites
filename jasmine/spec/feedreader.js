@@ -60,7 +60,7 @@ $(function() {
          * hiding/showing of the menu element.
          */
          it('is hidden by default', function() {
-              let hiddenCheck = document.querySelector('body').className;
+              let hiddenCheck = document.querySelector('body').classList;
               expect(hiddenCheck).toMatch('menu-hidden');
          });
 
@@ -92,7 +92,7 @@ $(function() {
               loadFeed(0, done);
           });
           it('ran and has at least one initial entry', function(done) {
-              var initEntries = document.getElementsByClassName("entry-link");
+              var initEntries = document.querySelectorAll('.feed .entry')
               expect(initEntries.length).toBeGreaterThan(0);
               done();
           });
