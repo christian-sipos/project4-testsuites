@@ -11,4 +11,4 @@ the Jasmine test suites required in the project description.
 3. The tests are displayed at the bottom of the index.html page by Jasmine.
 4. Edit the tests in jasmine/spec/feedreader.js
 
-Review the [Jasmine documentation](http://jasmine.github.io) is necessary.
+Review the [Jasmine documentation](http://jasmine.github.io) if necessary.
